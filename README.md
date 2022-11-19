@@ -21,6 +21,11 @@
    docker-compose up -d
    ```
 
+5. Populate DB with seed
+   ```
+   http://localhost:3000/api/v2/seed
+   ```
+
    ## Stack used
    * MongoDB
    * Nest
