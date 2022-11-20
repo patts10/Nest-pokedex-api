@@ -1,4 +1,5 @@
 import { HttpAdapter } from './../interfaces/http-adapter.interface';
+import fetch from "node-fetch";
 
 export class FetchAdapter implements HttpAdapter {
   
