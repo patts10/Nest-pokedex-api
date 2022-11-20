@@ -21,7 +21,17 @@
    docker-compose up -d
    ```
 
-5. Populate DB with seed
+5. Cone file ```.env.template``` and rename this copy to ```.env```
+
+6. Set defined eviroment varibles on ```.env```
+
+7. Run application on dev:
+
+   ```
+   npm run start:dev
+   ```
+
+8. Populate DB with seed
    ```
    http://localhost:3000/api/v2/seed
    ```
